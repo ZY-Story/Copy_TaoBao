@@ -5,6 +5,9 @@
     position: relative;
     margin-left: -675px;
 }
+
+
+
 /* 顶部 */
 header{
     background: #f5f5f5 ;
@@ -14,15 +17,27 @@ header{
 header .header{
     display: flex;
     font-size: 12px;
-    color: #6C6C6C;
+    color: #6C6C6C !important;
     justify-content: space-between; 
 }
+
+
+
 /* 顶部左边 */
 .header .left a{
     height:30px;
     line-height: 30px;
+    color: #6C6C6C !important;
     padding-right: 10px;
 }
+.header .left .header_first,
+.icon-gouwuche,
+.icon-daohang
+{
+    color:#f22e00!important 
+}
+
+
 
 /* 顶部右边 */
 header ul{
@@ -33,4 +48,13 @@ header li{
     height:30px;
     line-height: 30px;
     padding-left: 20px;
+}
+
+
+/* 顶部右边iconfont字体 部分 */
+header li .icon-gouwuche,
+header li .icon-jiantouarrow483,
+header li .icon-daohang
+{
+    font-size: 10px;
 }
