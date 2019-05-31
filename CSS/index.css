@@ -1,5 +1,31 @@
-header{
+.container{
+    width: 1350px;
+    left: 50%;
+    margin-left: -675px;
+}
+.header{
     border: 1px solid red;
-    height: 100px;
-    width: 100px;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    color: #6C6C6C;
+    justify-content: space-between;
+}
+.header .left a{
+    height:30px;
+    line-height: 30px;
+    padding-right: 10px;
+}
+.header .left .header_first{
+    color: #f22e00!important
+}
+.header ul{
+    display: flex;
+}
+.header li{
+    list-style: none;
+    height:30px;
+    line-height: 30px;
+    padding-left: 20px;
 }
