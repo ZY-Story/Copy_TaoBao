@@ -50,7 +50,9 @@ header li{
     padding-left: 20px;
 }
 
-
+.headerIndex{
+    color: red
+}
 /* 顶部右边iconfont字体 部分 */
 header li .icon-gouwuche,
 header li .icon-jiantouarrow483,
