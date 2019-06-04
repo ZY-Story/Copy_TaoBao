@@ -50,13 +50,28 @@ header li{
     padding-left: 20px;
 }
 
-.headerIndex{
-    color: red
-}
+
+
 /* 顶部右边iconfont字体 部分 */
 header li .icon-gouwuche,
 header li .icon-jiantouarrow483,
 header li .icon-daohang
 {
     font-size: 10px;
+}
+
+.right .myTbInfor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75px;
+    
+}
+.right #tbOther{
+    display: none;
+}
+.right li:hover{
+    color: #f22e00;
+}
+.right li{
+    cursor: pointer;
 }

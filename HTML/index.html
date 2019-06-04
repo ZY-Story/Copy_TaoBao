@@ -20,12 +20,21 @@
                 <a  href="#">手机逛淘宝</a>
             </div> 
              <div class="right">
-                <ul>
-                    <li class="headerIndex">淘宝首页</li>
-                    <li>我的淘宝
-                        <i class="iconfont icon-jiantouarrow483 "></i>    
+                <ul >
+                    <li id="tbIndex" class="headerIndex" onmouseover='getIndex()'>
+                        淘宝网首页
                     </li>
-                    <li>
+
+                    <li id="myTb" class='myTaobao' onmouseover="getMyTb()" onmouseout="leaveMyTb()">
+                        我的淘宝
+                        <i class="iconfont icon-jiantouarrow483 "></i>    
+                        <div class="myTbInfor" id="tbOther" >
+                            <a href="#">已买到的宝贝</a>
+                            <a href="#">我的足迹</a>
+                        </div>
+                    </li>
+
+                    <li id="bugCar">
                         <i class="iconfont icon-gouwuche "></i>
                         购物车
                     </li>
@@ -56,14 +65,8 @@
     
     
     
-    <div class="xxx">
-        xxxxxxxs
-        <p>baidu</p>
-        <form action= "Application/login" method = "POST">
-        用户名：<input id="username" name="username" type="text"/>
-        密码：<input id="password" name="password" type="password" />
-        <button type="submit">登陆</button>
-        </form>
+    <div id="box" onmouseover="change()">
+        
     </div>
     <script>
 
