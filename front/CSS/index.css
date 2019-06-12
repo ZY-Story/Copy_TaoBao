@@ -1,10 +1,4 @@
-/* 中心轴 */
-.container{
-    width: 1350px !important;
-    left: 50%;
-    position: relative;
-    margin-left: -675px;
-}
+
 
 
 
@@ -40,38 +34,33 @@ header .header{
 
 
 /* 顶部右边 */
-header ul{
+
+header .nav_Right{
     display: flex;
 }
-header li{
-    list-style: none;
+header .nav_Right div{
+    padding-left: 20px;
     height:30px;
     line-height: 30px;
-    padding-left: 20px;
 }
 
-
-
 /* 顶部右边iconfont字体 部分 */
-header li .icon-gouwuche,
-header li .icon-jiantouarrow483,
-header li .icon-daohang
+header .nav_Right .icon-gouwuche,
+header .nav_Right .icon-jiantouarrow483,
+header .nav_Right .icon-daohang
 {
     font-size: 10px;
 }
 
-.right .myTbInfor{
-    display: flex;
-    flex-wrap: wrap;
-    width: 75px;
-    
-}
-.right #tbOther{
-    display: none;
-}
-.right li:hover{
+
+.right .nav_Right div:hover{
     color: #f22e00;
 }
-.right li{
+.right .nav_Right div{
     cursor: pointer;
+}
+.right .nav_Right #myTbInfor,
+.right .nav_Right #collInfor
+{
+    display: none;
 }
