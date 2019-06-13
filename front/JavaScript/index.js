@@ -5,6 +5,8 @@ window.onload = function(){
     var myTbInfor = document.getElementById('myTbInfor')
     mytb.onmouseover = function(){
        myTbInfor.style.display = 'block'
+       myTbInfor.style.border = 1+'px';
+       
     }
     mytb.onmouseleave = function(){
         myTbInfor.style.display = 'none'
@@ -16,8 +18,8 @@ window.onload = function(){
     var collInfor = document.getElementById('collInfor')
     coll.onmouseover = function(){
         collInfor.style.display = 'block'
-     }
+    }
      coll.onmouseleave = function(){
          collInfor.style.display = 'none'
-     }
+    }
 }

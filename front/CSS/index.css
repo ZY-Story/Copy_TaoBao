@@ -52,7 +52,6 @@ header .nav_Right .icon-daohang
     font-size: 10px;
 }
 
-
 .right .nav_Right div:hover{
     color: #f22e00;
 }
@@ -63,4 +62,112 @@ header .nav_Right .icon-daohang
 .right .nav_Right #collInfor
 {
     display: none;
+}
+.right .nav_Right a{
+    color: #6C6C6C;
+}
+.right .nav_Right li:hover{
+    background: #e6e9eb;
+    color: #ffffff;
+    
+}
+#mytb,#coll
+{
+    z-index: 100;
+}
+
+
+/* logo和搜索栏部分 */
+.logo{
+    height: 120px;
+    display: flex;
+}
+
+/* 左边logo */
+.logo #left{
+    margin: 25px;
+}
+/* 右边logo */
+.logo .right{
+    margin-left: 10px;
+    
+}
+.logo #right_Infor ul{
+    display: flex;
+    flex-direction: row;
+    
+    padding-top: 21px;
+
+}
+.logo #right_Infor ul li{
+    padding: 0 5px;
+}
+.logo #right_Infor ul a{
+    color: #f22e00;
+}
+.logo #right_Infor #contents{
+    border: 1px solid  #f22e00;
+    height: 40px;
+    width: 630px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.logo #right_Infor input{
+    height: 36px;
+    width: 472px;
+    border: 0;
+    text-indent: 35px;
+    outline: none;
+}
+.logo #right_Infor button{
+    border: 0;
+    height: 40px;
+    width: 74px;
+    font-size: 18px;
+    background: #f22e00;
+    color: #ffffff;
+}
+.logo #right_Infor .icon-search{
+    position: absolute;
+    top: 56px;
+    left: 275px;
+    color: #666;
+    font-size: 14px;
+}
+.logo #right_Infor .icon-zhaoxiangji{
+    position: absolute;
+    top: 50px;
+    left: 780px;
+    color: rgb(189, 180, 180);
+    font-size: 24px;
+}
+
+/*  导航条部分 */
+.nav{
+    display: flex;  
+}
+.nav h2{
+    display: block;
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    background: #ff5000;
+}
+.nav ul{
+    display: flex; 
+    width: 100%;
+    background:#ff9000; 
+}
+.nav ul li{
+    padding: 0 15px;
+}
+.nav ul li a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #fff
 }
