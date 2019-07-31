@@ -118,8 +118,10 @@ header .nav_Right .icon-daohang
     height: 36px;
     width: 472px;
     border: 0;
+    font-size: 16px;
     text-indent: 35px;
     outline: none;
+    overflow-y: visible;
 }
 .logo #right_Infor button{
     border: 0;
